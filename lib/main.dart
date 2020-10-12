@@ -20,7 +20,7 @@ class CalculatorPage extends StatefulWidget {
 
 class _CalculatorPageState extends State<CalculatorPage> {
   TextEditingController _grade = TextEditingController();
-  String _gradeScore = "أضغط على أحسب لتظهر النتيجة:)";
+  String _gradeScore = "أضغط على أحسب لحساب النتيجة:)";
   @override
   Widget build(BuildContext context) {
     double _height = MediaQuery
